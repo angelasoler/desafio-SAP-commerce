@@ -1,0 +1,62 @@
+### Registrar um Novo Estudante
+POST http://localhost:8080/students
+Content-Type: application/json
+
+{
+    "name": "Ana Silva",
+    "email": "ana.silva@example.com",
+    "age": 25
+}
+
+### Registrar um Novo Curso
+POST http://localhost:8080/courses
+Content-Type: application/json
+
+{
+    "title": "Desenvolvimento Web com Spring Boot",
+    "description": "Aprenda a criar aplicações web robustas utilizando Spring Boot.",
+    "duration": "40 horas"
+}
+
+### Registrar um Novo Curso
+POST http://localhost:8080/courses
+Content-Type: application/json
+
+{
+    "title": "Desenvolvimento Web com Spring Boot",
+    "description": "Aprenda a criar aplicações web robustas utilizando Spring Boot.",
+    "duration": "40 horas"
+}
+
+### Inscrever um Estudante em um Curso
+POST http://localhost:8080/enrollments
+Content-Type: application/json
+
+{
+    "studentId": 1,
+    "courseId": 1
+}
+
+### Inscrever um Estudante em um Curso
+POST http://localhost:8080/enrollments
+Content-Type: application/json
+
+{
+    "studentId": 1,
+    "courseId": 1
+}
+
+### Inscrever um Estudante em um Curso
+POST http://localhost:8080/enrollments
+Content-Type: application/json
+
+{
+    "studentId": 1,
+    "courseId": 1
+}
+
+### Listar Cursos por Estudante
+GET http://localhost:8080/enrollments/coursesbyStudent/1
+
+### Listar Estudantes por Curso
+GET http://localhost:8080/enrollments/studentsbyCourse/1

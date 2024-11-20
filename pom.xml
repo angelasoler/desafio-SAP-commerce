@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>cursos_online</artifactId>
+	<artifactId>online_courses</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cursos_online</name>
+	<name>online_courses</name>
 	<description>plataforma para gerenciamento de plataforma de curso online</description>
 	<url/>
 	<licenses>
