@@ -1,9 +1,11 @@
-### **Online Courses API**
+<div align=center>
+  
+# **Online Courses API**
 
----
 
-### **Descrição**
-Uma aplicação Java REST API para gerenciar uma plataforma de cursos online. Ela permite o cadastro de estudantes e cursos, além de gerenciar inscrições de estudantes em cursos.
+
+Aplicação Java REST API para gerenciar uma plataforma de cursos online. Ela permite o cadastro de estudantes e cursos, e gerencia inscrições de estudantes em cursos.
+</div>
 
 ---
 
@@ -50,14 +52,14 @@ mvn test
 
 ---
 
-### **Exemplo de Comando `curl` para a Documentação**
+### **Comando `curl` para a Documentação**
 
 **Comando:**
 ```bash
 curl -X GET http://localhost:8080/api/docs -H "Accept: application/json"
 ```
 
-**Exemplo de Resultado:**
+**Output:**
 ```json
 {
     "Welcome": "Welcome to the Online Courses API! Here are the available endpoints:",
@@ -77,13 +79,15 @@ curl -X GET http://localhost:8080/api/docs -H "Accept: application/json"
 
 ---
 
+<div align="center">
+  
 ### **Diagrama Entidade-Relacionamento**
 
-<div align="center">
 <img src="diagram.png" alt="ER Diagram" heith="400" width="400">
-</div>
 
 O diagrama acima representa o relacionamento entre estudantes, cursos e inscrições. Cada estudante pode se inscrever em vários cursos, e cada curso pode ter vários estudantes inscritos. A tabela `ENROLLMENT` modela a relação muitos-para-muitos entre `STUDENT` e `COURSE`.
+
+</div>
 
 --- 
 
