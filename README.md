@@ -1,11 +1,9 @@
 ### **Online Courses API**
 
-![ER Diagram](diagram.png)
-
 ---
 
 ### **Descrição**
-Uma aplicação Java para gerenciar uma plataforma de cursos online. Ela permite o cadastro de estudantes e cursos, além de gerenciar inscrições de estudantes em cursos.
+Uma aplicação Java REST API para gerenciar uma plataforma de cursos online. Ela permite o cadastro de estudantes e cursos, além de gerenciar inscrições de estudantes em cursos.
 
 ---
 
@@ -81,9 +79,21 @@ curl -X GET http://localhost:8080/api/docs -H "Accept: application/json"
 
 ### **Diagrama Entidade-Relacionamento**
 
-![Diagrama Entidade-Relacionamento](diagram.png)
+<div align="center">
+<img src="diagram.png" alt="ER Diagram" heith="400" width="400">
+</div>
 
 O diagrama acima representa o relacionamento entre estudantes, cursos e inscrições. Cada estudante pode se inscrever em vários cursos, e cada curso pode ter vários estudantes inscritos. A tabela `ENROLLMENT` modela a relação muitos-para-muitos entre `STUDENT` e `COURSE`.
 
 --- 
 
+<div align="center">
+  
+### **Contato**
+
+✉️ pangelasolerc@gmail.com  
+
+🔗 [linkedin.com/in/angela-soler-caro/](https://www.linkedin.com/in/angela-soler-caro/)
+
+📱 +55 11 94672-0031
+</div>
